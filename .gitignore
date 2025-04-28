@@ -1,0 +1,56 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.buildlog/
+
+# IntelliJ related
+*.iml
+.idea/
+out/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Android related
+**/android/**/generated.properties
+**/android/**/generated/
+**/android/key.properties
+**/android/local.properties
+*.apk
+*.aab
+*.ap_
+
+# iOS related
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Runner.xcworkspace/
+
+# Web related
+**/web/favicon.png
+**/web/index.html
+**/web/manifest.json
+
+# Exceptions for Codemagic
+!**/android/gradlew
+!**/android/gradle/wrapper/gradle-wrapper.jar
+!**/android/gradle/wrapper/gradle-wrapper.properties
+!**/android/build.gradle
+!**/android/app/build.gradle
+!**/android/settings.gradle
